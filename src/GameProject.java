@@ -21,7 +21,7 @@ public class GameProject {
 							.println("You see a candle but no way to ligh it, would you like to take it [Y]  for yes ");
 					input.nextLine();
 					String response = input.nextLine();
-					if (response.equalsIgnoreCase("y")) {
+					if (response.equalsIgnoreCase("y")) { // cneck if the response is equal to yes
 						System.out.println("ok here it is but do not forget to find the exit");
 
 					} else {
@@ -40,12 +40,12 @@ public class GameProject {
 						System.out.println(
 								"ohhhh there is gold and silver everywhere, let's take some and leave, press 1 to take it or no to leave it!");
 						int goldSilver = input.nextInt();
-						if (goldSilver == 1) {
+						if (goldSilver == 1) { // check if the variable  goldSilver is 1 if it is do something
 							System.out.println(
 									"You greedy, that doesnt belong to you, you hear a voice from the wall.I will punish you for this.");
 							System.out.println(
 									"You get caught and receive a hard punishment because in life you should never take what is not yours.");
-						} else if (goldSilver == 2) {
+						} else if (goldSilver == 2) {// check if the variable  goldSilver is 2 if it is do something
 							System.out.println(
 									" You are a good man, you hear from the wall, to reward you. I am allowing to take what you want.in life you should always ask");
 						}
