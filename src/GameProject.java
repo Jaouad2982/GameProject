@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;// import the scanner object
 
 public class GameProject {
 	private static Scanner input = new Scanner(System.in);
@@ -7,14 +7,14 @@ public class GameProject {
 		// TODO Auto-generated method stub
 		String contin;
 		do {
-			levelChoice();
+			levelChoice(); // invoke the levelChoice method.with its options
 			int level = input.nextInt();
-			if (level == 1) {
+			if (level == 1) {// level one
 				System.out.println("This Road is known for having pirates, Good luck with it");
 				System.out.println(
 						"While you are walking you see a dark cave and a big castle, which one would you like to take, (1)For Cave or (2)For Castle?");
 				int choice = input.nextInt();
-				if (choice == 1) {
+				if (choice == 1) { // choice 1 in level 1
 					System.out.println(
 							"ohhhhhh,you are brave...but your choice will take you to the unknown of this place");
 					System.out
@@ -29,7 +29,7 @@ public class GameProject {
 						System.out.println("I should probably sit and wait. but If I do I will starve to death");
 
 					}
-				} else if (choice == 2) {
+				} else if (choice == 2) { // choice 2 in level 1 will prompt to enter a type integer to choose for castle variable.
 					System.out.println("ohhhhhh,you are greedy...a castle, you perhaps want to discover it, alright");
 					System.out.println("Open the door? press 1 for yes and 2 for no");
 					int castle = input.nextInt();
@@ -57,14 +57,14 @@ public class GameProject {
 
 				}
 
-			} else if (level == 2) {
+			} else if (level == 2) { // level 2 with a bunch of statments
 				System.out.println(
 						"This Road is known for having ghosts floating around,looking to hunt. Good luck with it");
 
 				System.out.println(
 						"While you are walking you hear voices, but you dont where it is coming from, where are those voices?,you ask yourself! Chose (1)To Follow the voice or (2)Ignore them?");
 				int select = input.nextInt();
-				if (select == 1) {
+				if (select == 1) { // this option 1 in level 1
 					System.out.println("ohhhhhh,you are not afraid...but you dont know who is there");
 					System.out.println(
 							"You see a nice looking stranger and an ugly man both waving at you, Do you want see the nice or Ugly: Press(1) For NICE (2) For UGLY?");
@@ -116,11 +116,11 @@ public class GameProject {
 			}
 			System.out.println("Would you like to play again, press [yes] or [no]");
 			contin = input.next();
-		} while (contin.equalsIgnoreCase("yes"));
+		} while (contin.equalsIgnoreCase("yes"));// If you want too play again press yes if not you ll leaving the program
 		System.out.println("Thanks for playing and have a good day");
 	}
 
-	public static void levelChoice() {
+	public static void levelChoice() { // a method with a series of statements... the user will choose the one he or she wants
 
 		System.out.println(
 				".......................................WELCOME TO JUNGLE Adventure Game..............................................");
