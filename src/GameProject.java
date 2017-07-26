@@ -1,5 +1,5 @@
+// a project displaying a game. created by Jaouad on 07/26/2017
 import java.util.Scanner;// import the scanner object
-
 public class GameProject {
 	private static Scanner input = new Scanner(System.in);
 
