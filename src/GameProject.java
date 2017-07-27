@@ -73,12 +73,12 @@ public class GameProject {
 					if (answer == 1) {
 						System.out.println(
 								"The nice looking man covers your eyes and take you to this place where there are lost people like you.");
-						System.out.println("This guy is murderer.there is more in life than looks!");
+						System.out.println("This guy is a murderer.there is more in life than looks!");
 
 					} else if (answer == 2) {
 						System.out.println("The Ugly man comforts you and ask you if you are ok, Hungry etc...");
 						System.out.println(
-								"So never trust in appearance!!! just because he is ugly does not mean he is bad.");
+								"So never trust in appearances!!! just because he is ugly does not mean he is bad.");
 
 					}
 				} else if (select == 2) {
@@ -91,7 +91,7 @@ public class GameProject {
 				System.out.println(
 						"This Road is known for having monsters disguised as humans,looking to kill and feed. Good luck with it");
 				System.out.println(
-						"While you are walking you see,two roads but you do know where they may take you .Choose (1)for road 1 or (2) for road 2?");
+						"While you are walking you see,two roads but you do not know where they may take you .Choose (1)for road 1 or (2) for road 2?");
 				int roadSelect = input.nextInt();
 				if (roadSelect == 1) {
 					System.out
@@ -99,17 +99,17 @@ public class GameProject {
 
 				} else if (roadSelect == 2) {
 					System.out.println(
-							"After walking a short distance, you see something the shape of human but the look of a creature. you try to run"
-									+ " away but you see another two paths. which one would you take?");
+							"After walking a short distance, you see something the shape of a human but the look of a creature. you try to run"
+									+ " away but you see an intersection with two paths. which one would you take?");
 					System.out.println("press 1 for left or 2 for right");
 					int choiceTwo = input.nextInt();
 					if (choiceTwo == 1) {
 						System.out.println("You are back to point Zero");
 
 					} else if (choiceTwo == 2) {
-						System.out.println("Another creature is still following , and there is where to go.");
+						System.out.println("you turn your head and another creature is following you. there is nowhere to go or to hide.");
 						System.out.println(
-								"The creature jumped on you, you start screaming and asking for help.Suddenly you wake up, IT IS ALL A DREAM");
+								"The creature jumped on you. you start screaming and asking for help .Suddenly you wake up, IT IS ALL A DREAM");
 					}
 
 				}
